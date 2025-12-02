@@ -1,12 +1,12 @@
 ---
-name: "Valkey LXC"
+name: "Import Project Parameter"
 slug: "valkey-lxc"
 category: "Containers & Docker"
 subcategory: "Database"
 icon: "🌀"
 date: "2025-11-28"
 views: 3214
-description: "Valkey is an open source (BSD) high-performance key/value datastore that supports a variety of workloads."
+description: "Adds and standardizes project-level parameters across a Revit project. Maps incoming parameters to shared definitions, creates missing shared parameters, and ensures consistent parameter grouping and naming for downstream workflows."
 raw: "https://example.com/valkey-lxc.sh"
 github: "https://github.com/example/valkey-lxc"
 ---

@@ -1,17 +1,12 @@
 ---
-name: "Docker LXC"
+name: "Copy Filters"
 slug: "docker-lxc"
-category: "Containers & Docker"
-subcategory: "Container Runtime"
+category: "SvN Tools"
 icon: "🐙"
 date: "2024-05-01"
 views: 6200
-description: "Docker is an open-source project for automating the deployment of applications as containers."
-raw: "https://example.com/docker-lxc.sh"
-github: "https://github.com/example/docker-lxc"
+description: "Copies view filters and graphical overrides between projects and views, preserving rules and visibility settings to ensure consistent presentation across documentation. Supports batch operations and mapping of filter criteria."
+github: "https://github.com/xxxxx"
 ---
 
-#!/bin/bash
-# install Docker LXC
-wget https://example.com/docker-lxc.sh -O docker-lxc.sh
-bash docker-lxc.sh
+Manage > Additional Settings > Line Styles

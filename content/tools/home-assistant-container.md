@@ -1,12 +1,12 @@
 ---
-name: "Home Assistant Container"
+name: "Copy Parameters"
 slug: "home-assistant-container"
 category: "Home Automation"
 subcategory: "Home Automation"
 icon: "🏠"
 date: "2025-09-15"
 views: 4100
-description: "Home Assistant is open source home automation that puts local control and privacy first."
+description: "Copies parameter values between elements, families, or categories, enabling bulk updates and synchronization of shared/project parameters across multiple elements or linked models."
 raw: "https://example.com/home-assistant-container.sh"
 github: "https://github.com/example/home-assistant-container"
 ---

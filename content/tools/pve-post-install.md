@@ -1,12 +1,12 @@
 ---
-name: "PVE Post Install"
+name: "CAD Line Tool"
 slug: "pve-post-install"
 category: "Proxmox"
 subcategory: "Setup"
 icon: "⚙️"
 date: "2025-08-10"
 views: 5300
-description: "Post installation configuration for Proxmox Virtual Environment (PVE) to optimize and secure your system."
+description: "Imports CAD linework and maps external CAD layers to native Revit line types and styles, converting geometry and applying SvN standard naming conventions for consistent drafting output."
 raw: "https://example.com/pve-post-install.sh"
 github: "https://github.com/example/pve-post-install"
 ---
