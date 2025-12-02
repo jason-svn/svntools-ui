@@ -2,7 +2,7 @@
 name: "Import from Excel"
 slug: "import-from-excel"
 category: "Views Sheet Manager"
-subcategory: "Revit"
+tag: "SvN Tools"
 icon: "📥"
 date: "2024-05-01"
 views: 6200
@@ -14,3 +14,4 @@ github: "https://github.com/xxxxx"
 Manage > Additional Settings > Line Styles
 
 ![Import from Excel](./images/line-type-tool.png)
+

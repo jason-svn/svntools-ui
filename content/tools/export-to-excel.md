@@ -2,7 +2,7 @@
 name: "Export to Excel"
 slug: "export-to-excel"
 category: "Views Sheet Manager"
-subcategory: "Reporting"
+tag: "SvN Tools"
 icon: "📤"
 date: "2025-12-01"
 views: 0
@@ -27,5 +27,3 @@ Example columns produced for a `Doors` schedule:
 
 After export you can edit values in Excel and re-import using the complementary `Import from Excel` tool.
 
-#!/bin/bash
-echo "Exporting schedules to Excel..."

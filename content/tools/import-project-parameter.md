@@ -2,7 +2,7 @@
 name: "Import Project Parameter"
 slug: "import-project-parameter"
 category: "Project Setup"
-subcategory: "Parameters"
+tag: "SvN Tools"
 icon: "🔧"
 date: "2025-11-28"
 views: 3214
@@ -11,7 +11,3 @@ raw: "https://example.com/valkey-lxc.sh"
 github: "https://github.com/example/valkey-lxc"
 ---
 
-#!/bin/bash
-# install Valkey LXC (import project parameter helper)
-wget https://example.com/valkey-lxc.sh -O valkey-lxc.sh
-bash valkey-lxc.sh

@@ -20,7 +20,8 @@ function loadAll() {
       name: data.name || slug,
       slug,
       category: data.category || 'Uncategorized',
-      subcategory: data.subcategory || '',
+      // Prefer explicit `tag`, then pluginName / "Plugin Name", fall back to legacy subcategory
+      tag: data.tag || data.pluginName || data['Plugin Name'] || data.subcategory || '',
       icon: data.icon || '',
       date: data.date || new Date().toISOString().slice(0, 10),
       views: data.views || 0,

@@ -15,6 +15,11 @@ export default function ScriptCard({ tool, showIcon = true }: Props) {
           </div>
         )}
         <span className="text-sm text-gray-500">{tool.date}</span>
+        {tool.tag && (
+          <span className="ml-2 text-xs text-gray-700 bg-gray-100 border border-gray-200 px-2 py-0.5 rounded">
+            {tool.tag}
+          </span>
+        )}
       </div>
 
       <h3 className="font-semibold text-lg mb-2 line-clamp-1">{tool.name}</h3>

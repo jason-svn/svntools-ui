@@ -2,7 +2,7 @@
 name: "Copy Filters"
 slug: "copy-filters"
 category: "Project Management"
-subcategory: "Filters"
+tag: "SvN Tools"
 icon: "🔍"
 date: "2024-05-01"
 views: 6200
