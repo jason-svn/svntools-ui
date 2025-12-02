@@ -2,6 +2,7 @@
 name: "Qdrant LXC"
 slug: "qdrant-lxc"
 category: "AI / Coding & Dev-Tools"
+subcategory: "Vector Database"
 icon: "🧪"
 date: "2025-11-26"
 views: 1902

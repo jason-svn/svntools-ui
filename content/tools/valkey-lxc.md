@@ -2,6 +2,7 @@
 name: "Valkey LXC"
 slug: "valkey-lxc"
 category: "Containers & Docker"
+subcategory: "Database"
 icon: "🌀"
 date: "2025-11-28"
 views: 3214

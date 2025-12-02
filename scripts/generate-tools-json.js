@@ -20,6 +20,7 @@ function loadAll() {
       name: data.name || slug,
       slug,
       category: data.category || 'Uncategorized',
+      subcategory: data.subcategory || '',
       icon: data.icon || '',
       date: data.date || new Date().toISOString().slice(0, 10),
       views: data.views || 0,

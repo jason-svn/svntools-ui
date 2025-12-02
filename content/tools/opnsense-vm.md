@@ -2,6 +2,7 @@
 name: "OPNsense VM"
 slug: "opnsense-vm"
 category: "Network & Firewall"
+subcategory: "Firewall"
 icon: "🛡️"
 date: "2025-11-22"
 views: 2500
