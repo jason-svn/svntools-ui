@@ -24,7 +24,7 @@ export default function ScriptCard({ tool }: Props) {
         href={`/tools/${tool.slug}`}
         className="mt-4 inline-block text-center bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 py-2 rounded-lg transition"
       >
-        View Script
+        View Tool Details
       </Link>
     </div>
   );
