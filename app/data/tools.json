@@ -48,6 +48,18 @@
     "github": "https://github.com/example/docker-lxc"
   },
   {
+    "name": "Line Type Tool",
+    "slug": "Create Lines based on SvN Approved Standards",
+    "category": "SvN Tools",
+    "icon": "🐙",
+    "date": "2024-05-01",
+    "views": 6200,
+    "description": "The Line Type Tool can be used to import SvN's standard line types into an existing project. When used, it audits the model's existing line types, imports any missing ones, and replaces matching types with SvN BIM Standards. For individual or one-off new line types, use standard Revit processes.",
+    "script": "# 🟣 Line Type Tool\n\nThe **Line Type Tool** allows users to import SvN’s standard line types into a Revit project in one action.\n\nWhen activated, it:\n\n- Audits all line types in the project  \n- Imports missing SvN-standard line types  \n- Replaces existing types with matching SvN-standard ones  \n- Maintains consistency with SvN BIM Standards  \n\n---\n\n## ▶ Regular Revit Workflow (For Single Line Types)\n\nIf only one new line type is required, use native Revit tools:\n\n**Manage → Additional Settings → Line Styles**\n\n---\n\n## 📩 Need New Standards?\n\nFor projects that require new or expanded BIM standards  \n(e.g., collaboration with consultants, BEP requirements, shared standards):\n\n👉 **Contact [@Jason Tian](mailto:jtian@svn-ap.com)**\n\n---\n\n# 📸 Line Styles & Patterns Comparison\n\nBelow is the comparison of default line types vs. SvN standards after import:\n\n![Line Styles and Patterns Comparison](./images/line-type-tool.png)\n\n> *(Replace the image path above with your actual hosted URL if needed.)*\n\n---\n\n## 📂 Data Source\n\nAll line style and pattern settings are derived from:\n\n```\nN:\\Library\\Design Software\\Autodesk\\Revit\\Standards\\Line Type\\Linetypes.xlsx\n```\n\n---",
+    "raw": "",
+    "github": "https://github.com/xxxxx"
+  },
+  {
     "name": "Home Assistant Container",
     "slug": "home-assistant-container",
     "category": "IoT & Smart Home",
