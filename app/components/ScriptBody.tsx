@@ -50,9 +50,9 @@ export default function ScriptBody({ tool }: Props) {
         )}
       </div>
 
-      <pre className="bg-gray-900 text-gray-200 p-4 rounded-lg overflow-x-auto text-sm leading-relaxed">
+      <div className="text-gray-700 p-4 rounded-lg overflow-x-auto text-sm leading-relaxed whitespace-pre-wrap">
         {tool.script || "# No script content provided."}
-      </pre>
+      </div>
     </section>
   );
 }
