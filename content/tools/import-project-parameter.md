@@ -1,9 +1,9 @@
 ---
 name: "Import Project Parameter"
 slug: "import-project-parameter"
-category: "Containers & Docker"
-subcategory: "Database"
-icon: "🌀"
+category: "Project Setup"
+subcategory: "Parameters"
+icon: "🔧"
 date: "2025-11-28"
 views: 3214
 description: "Standardizes and imports project-level parameters. Maps incoming parameters to shared definitions, creates missing shared parameters, and enforces naming/grouping conventions."

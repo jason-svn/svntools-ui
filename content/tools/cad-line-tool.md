@@ -1,9 +1,9 @@
 ---
 name: "CAD Line Tool"
 slug: "cad-line-tool"
-category: "Project Management"
+category: "Project Design"
 subcategory: "Setup"
-icon: "⚙️"
+icon: "📐"
 date: "2025-08-10"
 views: 5300
 description: "Imports CAD linework and maps external CAD layers to native Revit line types and styles, converting geometry and applying SvN naming conventions for consistent drafting output."

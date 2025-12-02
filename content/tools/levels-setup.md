@@ -1,9 +1,9 @@
 ---
 name: "Levels Setup"
 slug: "levels-setup"
-category: "Network & Firewall"
-subcategory: "Firewall"
-icon: "🛡️"
+category: "Project Setup"
+subcategory: "Levels"
+icon: "📏"
 date: "2025-11-22"
 views: 2500
 description: "Automates creation and configuration of building levels, sets elevations and names, and associates levels with grids and views per SvN standards."

@@ -1,7 +1,7 @@
 ---
 name: "Export to Excel"
 slug: "export-to-excel"
-category: "SvN Tools"
+category: "Views Sheet Manager"
 subcategory: "Reporting"
 icon: "📤"
 date: "2025-12-01"

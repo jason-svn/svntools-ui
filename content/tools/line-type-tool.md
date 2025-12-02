@@ -1,9 +1,9 @@
 ---
-name: "Import from Excel"
+name: "Line Type Tool"
 slug: "line-type-tool"
-category: "SvN Tools"
+category: "Project Setup"
 subcategory: "Revit"
-icon: "📐"
+icon: "✏️"
 date: "2024-05-01"
 views: 6200
 description: "Imports schedules, parameter values, and lookup tables from Excel into the model, matching columns to parameters and performing bulk assignments with validation and mapping to prevent mismatches."

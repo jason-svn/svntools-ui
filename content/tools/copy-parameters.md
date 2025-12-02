@@ -1,9 +1,9 @@
 ---
 name: "Copy Parameters"
 slug: "copy-parameters"
-category: "Home Automation"
-subcategory: "Home Automation"
-icon: "🏠"
+category: "Project Management"
+subcategory: "Parameters"
+icon: "📋"
 date: "2025-09-15"
 views: 4100
 description: "Copies parameter values between elements, families, or linked models to enable bulk updates and synchronization of shared/project parameters."

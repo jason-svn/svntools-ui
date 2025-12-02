@@ -1,9 +1,9 @@
 ---
 name: "Views Creator"
 slug: "views-creator"
-category: "AI / Coding & Dev-Tools"
-subcategory: "Vector Database"
-icon: "🧪"
+category: "Project Setup"
+subcategory: "Views"
+icon: "🖼️"
 date: "2025-11-26"
 views: 1902
 description: "Creates standard views (plans, elevations, sections) from templates, applies view templates and naming conventions to speed documentation setup."
