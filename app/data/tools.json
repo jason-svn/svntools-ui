@@ -2,7 +2,7 @@
   {
     "name": "Export to Excel",
     "slug": "export-to-excel",
-    "category": "SvN Tools",
+    "category": "Views Sheet Manager",
     "subcategory": "Reporting",
     "icon": "📤",
     "date": "2025-12-01",
@@ -67,7 +67,7 @@
   {
     "name": "CAD Line Tool",
     "slug": "cad-line-tool",
-    "category": "Project Management",
+    "category": "Project Design",
     "subcategory": "Setup",
     "icon": "⚙️",
     "date": "2025-08-10",
@@ -81,7 +81,7 @@
     "name": "Copy Filters",
     "slug": "copy-filters",
     "category": "Project Management",
-    "subcategory": "",
+    "subcategory": "Filters",
     "icon": "🐙",
     "date": "2024-05-01",
     "views": 6200,
@@ -93,7 +93,7 @@
   {
     "name": "Import from Excel",
     "slug": "import-from-excel",
-    "category": "SvN Tools",
+    "category": "Views Sheet Manager",
     "subcategory": "Revit",
     "icon": "📐",
     "date": "2024-05-01",
