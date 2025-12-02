@@ -7,6 +7,13 @@ type Props = {
   params: { slug: string };
 };
 
+// Generate static params for all tools so "next export" can pre-render them
+export function generateStaticParams() {
+  return (toolsData as any[]).map((tool: any) => ({
+    slug: tool.slug
+  }));
+}
+
 export default function ToolPage({ params }: Props) {
   const tool = (toolsData as any[]).find((t: any) => t.slug === params.slug);
 
