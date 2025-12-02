@@ -7,10 +7,7 @@ const nextConfig = {
   output: 'export',
   // Only apply basePath/assetPrefix in production (GitHub Pages).
   // During `next dev` we keep the site at `/` to avoid 404s.
-  ...(isProd ? { basePath: repoBase, assetPrefix: repoBase } : {}),
-  experimental: {
-    appDir: true
-  }
+  ...(isProd ? { basePath: repoBase, assetPrefix: repoBase } : {})
 };
 
 export default nextConfig;
