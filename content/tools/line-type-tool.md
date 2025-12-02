@@ -1,6 +1,6 @@
 ---
 name: "Line Type Tool"
-slug: "Create Lines based on SvN Approved Standards"
+slug: "line-type-tool"
 category: "SvN Tools"
 icon: "🐙"
 date: "2024-05-01"
