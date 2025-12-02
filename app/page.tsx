@@ -44,7 +44,7 @@ export default function HomePage() {
       <main className="flex-1">
         <div className="bg-gray-50 px-6 py-8">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-            <h1 className="text-2xl font-semibold">SvNTools Helper Scripts</h1>
+            <h1 className="text-4xl font-bold">SvNTools Helper</h1>
 
             <input
               value={search}
