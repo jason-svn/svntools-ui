@@ -6,7 +6,7 @@ subcategory: "Database"
 icon: "🌀"
 date: "2025-11-28"
 views: 3214
-description: "Adds and standardizes project-level parameters across a Revit project. Maps incoming parameters to shared definitions, creates missing shared parameters, and ensures consistent parameter grouping and naming for downstream workflows."
+description: "Standardizes and imports project-level parameters. Maps incoming parameters to shared definitions, creates missing shared parameters, and enforces naming/grouping conventions."
 raw: "https://example.com/valkey-lxc.sh"
 github: "https://github.com/example/valkey-lxc"
 ---

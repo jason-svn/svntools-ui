@@ -1,11 +1,11 @@
 ---
 name: "Copy Filters"
 slug: "copy-filters"
-category: "SvN Tools"
+category: "Project Management"
 icon: "🐙"
 date: "2024-05-01"
 views: 6200
-description: "Copies view filters and graphical overrides between projects and views, preserving rules and visibility settings to ensure consistent presentation across documentation. Supports batch operations and mapping of filter criteria."
+description: "Copies view filters and graphical overrides between projects and views, preserving rules and visibility settings and supporting batch mappings."
 github: "https://github.com/xxxxx"
 ---
 

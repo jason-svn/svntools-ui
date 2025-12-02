@@ -8,6 +8,7 @@ import ScriptCard from "./components/ScriptCard";
 export default function HomePage() {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All");
+  const [showIcons, setShowIcons] = useState(true);
 
   const categories = useMemo(() => {
     const set = new Set<string>();
@@ -46,12 +47,24 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <h1 className="text-4xl font-bold">SvNTools Helper</h1>
 
-            <input
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="px-4 py-2 border border-gray-300 rounded-lg w-full md:w-80 text-sm"
-              placeholder="Search scripts..."
-            />
+            <div className="flex items-center gap-3 w-full md:w-auto">
+              <input
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="px-4 py-2 border border-gray-300 rounded-lg w-full md:w-80 text-sm"
+                placeholder="Search scripts..."
+              />
+
+              <label className="ml-2 flex items-center text-sm gap-2">
+                <input
+                  type="checkbox"
+                  checked={showIcons}
+                  onChange={(e) => setShowIcons(e.target.checked)}
+                  className="h-4 w-4"
+                />
+                <span>Show icons</span>
+              </label>
+            </div>
           </div>
         </div>
 
@@ -62,7 +75,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {newest.map((tool: any) => (
-              <ScriptCard key={tool.slug} tool={tool} />
+              <ScriptCard key={tool.slug} tool={tool} showIcon={showIcons} />
             ))}
           </div>
         </section>
@@ -71,7 +84,7 @@ export default function HomePage() {
           <h2 className="text-2xl font-bold mb-4">Most Viewed Scripts</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {mostViewed.map((tool: any) => (
-              <ScriptCard key={tool.slug} tool={tool} />
+              <ScriptCard key={tool.slug} tool={tool} showIcon={showIcons} />
             ))}
           </div>
         </section>
@@ -80,8 +93,8 @@ export default function HomePage() {
           <h2 className="text-2xl font-bold mb-4">All Scripts</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {filtered.length > 0 ? (
-              filtered.map((tool: any) => (
-                <ScriptCard key={tool.slug} tool={tool} />
+                filtered.map((tool: any) => (
+                <ScriptCard key={tool.slug} tool={tool} showIcon={showIcons} />
               ))
             ) : (
               <p className="text-sm text-gray-500 col-span-full p-6 border rounded-lg text-center">

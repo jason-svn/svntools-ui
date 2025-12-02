@@ -8,7 +8,7 @@
     "date": "2025-12-01",
     "views": 0,
     "description": "Exports schedules, parameters, and lookup tables from the model to Excel for reporting and batch editing. Preserves column mappings and formatting to streamline data hand-off and review.",
-    "script": "#!/bin/bash\r\n# Export to Excel helper (placeholder)\r\necho \"Exporting schedules to Excel...\"",
+    "script": "## Export to Excel\r\n\r\nThis tool exports schedules, parameters and lookup tables from the model into an Excel workbook for reporting or bulk edits. Output preserves column mappings and adds a small manifest sheet that records parameter-to-column mappings.\r\n\r\nUsage notes:\r\n\r\n- Exports one or more schedules as separate sheets.\r\n- Preserves parameter column headings; date/time and number formatting is retained where possible.\r\n- Includes a `mapping` sheet describing which model parameter maps to which column.\r\n\r\nExample columns produced for a `Doors` schedule:\r\n\r\n| Mark | Type | Width | Height | Fire Rating | Comments |\r\n\r\nAfter export you can edit values in Excel and re-import using the complementary `Import from Excel` tool.\r\n\r\n#!/bin/bash\r\necho \"Exporting schedules to Excel...\"",
     "raw": "https://example.com/export-to-excel.sh",
     "github": "https://github.com/example/export-to-excel"
   },
@@ -20,7 +20,7 @@
     "icon": "🌀",
     "date": "2025-11-28",
     "views": 3214,
-    "description": "Adds and standardizes project-level parameters across a Revit project. Maps incoming parameters to shared definitions, creates missing shared parameters, and ensures consistent parameter grouping and naming for downstream workflows.",
+    "description": "Standardizes and imports project-level parameters. Maps incoming parameters to shared definitions, creates missing shared parameters, and enforces naming/grouping conventions.",
     "script": "#!/bin/bash\r\n# install Valkey LXC (import project parameter helper)\r\nwget https://example.com/valkey-lxc.sh -O valkey-lxc.sh\r\nbash valkey-lxc.sh",
     "raw": "https://example.com/valkey-lxc.sh",
     "github": "https://github.com/example/valkey-lxc"
@@ -33,7 +33,7 @@
     "icon": "🧪",
     "date": "2025-11-26",
     "views": 1902,
-    "description": "Automates creation of standard views (plans, elevations, sections, and callouts) based on company templates. Applies view templates, naming conventions, and visibility settings to speed up project setup and documentation.",
+    "description": "Creates standard views (plans, elevations, sections) from templates, applies view templates and naming conventions to speed documentation setup.",
     "script": "#!/bin/bash\r\n# install Views Creator helper\r\nwget https://example.com/qdrant-lxc.sh -O qdrant-lxc.sh\r\nbash qdrant-lxc.sh",
     "raw": "https://example.com/qdrant-lxc.sh",
     "github": "https://github.com/example/qdrant-lxc"
@@ -46,7 +46,7 @@
     "icon": "🛡️",
     "date": "2025-11-22",
     "views": 2500,
-    "description": "Automates creation and configuration of building levels. Sets elevations, names, and associates levels with grids and views so the model follows SvN level and naming standards.",
+    "description": "Automates creation and configuration of building levels, sets elevations and names, and associates levels with grids and views per SvN standards.",
     "script": "#!/bin/bash\r\n# levels setup helper\r\nwget https://example.com/opnsense-vm.sh -O opnsense-vm.sh\r\nbash opnsense-vm.sh",
     "raw": "https://example.com/opnsense-vm.sh",
     "github": "https://github.com/example/opnsense-vm"
@@ -59,7 +59,7 @@
     "icon": "🏠",
     "date": "2025-09-15",
     "views": 4100,
-    "description": "Copies parameter values between elements, families, or categories, enabling bulk updates and synchronization of shared/project parameters across multiple elements or linked models.",
+    "description": "Copies parameter values between elements, families, or linked models to enable bulk updates and synchronization of shared/project parameters.",
     "script": "#!/bin/bash\r\n# copy parameters helper\r\nwget https://example.com/home-assistant-container.sh -O home-assistant-container.sh\r\nbash home-assistant-container.sh",
     "raw": "https://example.com/home-assistant-container.sh",
     "github": "https://github.com/example/home-assistant-container"
@@ -67,12 +67,12 @@
   {
     "name": "CAD Line Tool",
     "slug": "cad-line-tool",
-    "category": "Proxmox",
+    "category": "Project Management",
     "subcategory": "Setup",
     "icon": "⚙️",
     "date": "2025-08-10",
     "views": 5300,
-    "description": "Imports CAD linework and maps external CAD layers to native Revit line types and styles, converting geometry and applying SvN standard naming conventions for consistent drafting output.",
+    "description": "Imports CAD linework and maps external CAD layers to native Revit line types and styles, converting geometry and applying SvN naming conventions for consistent drafting output.",
     "script": "#!/bin/bash\r\n# CAD line import helper\r\nwget https://example.com/pve-post-install.sh -O pve-post-install.sh\r\nbash pve-post-install.sh",
     "raw": "https://example.com/pve-post-install.sh",
     "github": "https://github.com/example/pve-post-install"
@@ -80,12 +80,12 @@
   {
     "name": "Copy Filters",
     "slug": "copy-filters",
-    "category": "SvN Tools",
+    "category": "Project Management",
     "subcategory": "",
     "icon": "🐙",
     "date": "2024-05-01",
     "views": 6200,
-    "description": "Copies view filters and graphical overrides between projects and views, preserving rules and visibility settings to ensure consistent presentation across documentation. Supports batch operations and mapping of filter criteria.",
+    "description": "Copies view filters and graphical overrides between projects and views, preserving rules and visibility settings and supporting batch mappings.",
     "script": "Manage > Additional Settings > View Filters",
     "raw": "",
     "github": "https://github.com/xxxxx"
@@ -98,7 +98,7 @@
     "icon": "📐",
     "date": "2024-05-01",
     "views": 6200,
-    "description": "Imports schedules, parameter values, and lookup tables from Excel into the model, matching columns to parameters and performing bulk assignments with validation and mapping to prevent mismatches.",
+    "description": "Imports schedules, parameter values and lookup tables from Excel, mapping columns to parameters and performing bulk assignments with validation.",
     "script": "Manage > Additional Settings > Line Styles\r\n\r\n![Import from Excel](./images/line-type-tool.png)",
     "raw": "https://example.com",
     "github": "https://github.com/xxxxx"

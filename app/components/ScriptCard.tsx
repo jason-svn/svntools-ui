@@ -2,15 +2,18 @@ import Link from "next/link";
 
 type Props = {
   tool: any;
+  showIcon?: boolean;
 };
 
-export default function ScriptCard({ tool }: Props) {
+export default function ScriptCard({ tool, showIcon = true }: Props) {
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5 flex flex-col">
       <div className="flex items-center gap-3 mb-3">
-        <div className="h-10 w-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-xl font-bold">
-          {tool.icon || "⚙️"}
-        </div>
+        {showIcon && (
+          <div className="h-10 w-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-xl font-bold">
+            {tool.icon || "⚙️"}
+          </div>
+        )}
         <span className="text-sm text-gray-500">{tool.date}</span>
       </div>
 

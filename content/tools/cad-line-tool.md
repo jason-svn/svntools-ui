@@ -1,12 +1,12 @@
 ---
 name: "CAD Line Tool"
 slug: "cad-line-tool"
-category: "Proxmox"
+category: "Project Management"
 subcategory: "Setup"
 icon: "⚙️"
 date: "2025-08-10"
 views: 5300
-description: "Imports CAD linework and maps external CAD layers to native Revit line types and styles, converting geometry and applying SvN standard naming conventions for consistent drafting output."
+description: "Imports CAD linework and maps external CAD layers to native Revit line types and styles, converting geometry and applying SvN naming conventions for consistent drafting output."
 raw: "https://example.com/pve-post-install.sh"
 github: "https://github.com/example/pve-post-install"
 ---
