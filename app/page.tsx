@@ -41,21 +41,23 @@ export default function HomePage() {
         onSelect={setCategory}
       />
 
-      <main className="flex-1 p-6 space-y-10">
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <h1 className="text-2xl font-semibold">SvNTools Helper Scripts</h1>
+      <main className="flex-1">
+        <div className="bg-gray-50 px-6 py-8">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <h1 className="text-2xl font-semibold">SvNTools Helper Scripts</h1>
 
-          <input
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="px-4 py-2 border border-gray-300 rounded-lg w-full md:w-80 text-sm"
-            placeholder="Search scripts..."
-          />
+            <input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="px-4 py-2 border border-gray-300 rounded-lg w-full md:w-80 text-sm"
+              placeholder="Search scripts..."
+            />
+          </div>
         </div>
 
-        <section>
+        <section className="bg-white px-6 py-10">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="text-xl font-semibold">Newest Scripts</h2>
+            <h2 className="text-2xl font-bold">Latest Scripts</h2>
             <span className="text-xs text-gray-500">More..</span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -65,8 +67,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="text-xl font-semibold mb-4">Most Viewed Scripts</h2>
+        <section className="bg-gray-100 px-6 py-10">
+          <h2 className="text-2xl font-bold mb-4">Most Viewed Scripts</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {mostViewed.map((tool: any) => (
               <ScriptCard key={tool.slug} tool={tool} />
@@ -74,8 +76,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="text-xl font-semibold mb-4">All Scripts</h2>
+        <section className="bg-white px-6 py-10">
+          <h2 className="text-2xl font-bold mb-4">All Scripts</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {filtered.length > 0 ? (
               filtered.map((tool: any) => (
