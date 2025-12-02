@@ -6,7 +6,7 @@ type Props = {
 
 export default function Sidebar({ categories, active, onSelect }: Props) {
   return (
-    <aside className="w-64 border-r p-4 hidden lg:block" style={{ backgroundColor: '#FFFF00' }}>
+    <aside className="w-64 border-r bg-gray-50 p-4 hidden lg:block">
       <h2 className="text-lg font-semibold mb-3">Categories</h2>
       <ul className="space-y-1 text-sm">
         {categories.map((c) => (
