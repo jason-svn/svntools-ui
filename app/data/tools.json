@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Valkey LXC",
+    "slug": "valkey-lxc",
+    "category": "Containers & Docker",
+    "icon": "\ud83c\udf00",
+    "date": "2025-11-28",
+    "views": 3214,
+    "description": "Valkey is an open source (BSD) high-performance key/value datastore that supports a variety of workloads.",
+    "script": "#!/bin/bash\n# install Valkey LXC\nwget https://example.com/valkey-lxc.sh -O valkey-lxc.sh\nbash valkey-lxc.sh",
+    "raw": "https://example.com/valkey-lxc.sh",
+    "github": "https://github.com/example/valkey-lxc"
+  },
+  {
+    "name": "Qdrant LXC",
+    "slug": "qdrant-lxc",
+    "category": "AI / Coding & Dev-Tools",
+    "icon": "\ud83e\uddca",
+    "date": "2025-11-26",
+    "views": 1902,
+    "description": "Qdrant is a vector search engine and vector database for high-dimensional vectors.",
+    "script": "#!/bin/bash\n# install Qdrant LXC\nwget https://example.com/qdrant-lxc.sh -O qdrant-lxc.sh\nbash qdrant-lxc.sh",
+    "raw": "https://example.com/qdrant-lxc.sh",
+    "github": "https://github.com/example/qdrant-lxc"
+  },
+  {
+    "name": "OPNsense VM",
+    "slug": "opnsense-vm",
+    "category": "Network & Firewall",
+    "icon": "\ud83d\udee1\ufe0f",
+    "date": "2025-11-22",
+    "views": 2500,
+    "description": "OPNsense is an open-source firewall and routing platform based on FreeBSD.",
+    "script": "#!/bin/bash\n# install OPNsense VM\nwget https://example.com/opnsense-vm.sh -O opnsense-vm.sh\nbash opnsense-vm.sh",
+    "raw": "https://example.com/opnsense-vm.sh",
+    "github": "https://github.com/example/opnsense-vm"
+  },
+  {
+    "name": "PVE Post Install",
+    "slug": "pve-post-install",
+    "category": "SvNTools & Virtualization",
+    "icon": "\u274c",
+    "date": "2024-04-27",
+    "views": 8340,
+    "description": "This script provides options for managing SvNTools repositories and common post-install tasks.",
+    "script": "#!/bin/bash\n# PVE post install steps\nwget https://example.com/pve-post-install.sh -O pve-post-install.sh\nbash pve-post-install.sh",
+    "raw": "https://example.com/pve-post-install.sh",
+    "github": "https://github.com/example/pve-post-install"
+  },
+  {
+    "name": "Docker LXC",
+    "slug": "docker-lxc",
+    "category": "Containers & Docker",
+    "icon": "\ud83d\udc33",
+    "date": "2024-05-01",
+    "views": 6200,
+    "description": "Docker is an open-source project for automating the deployment of applications as containers.",
+    "script": "#!/bin/bash\n# install Docker LXC\nwget https://example.com/docker-lxc.sh -O docker-lxc.sh\nbash docker-lxc.sh",
+    "raw": "https://example.com/docker-lxc.sh",
+    "github": "https://github.com/example/docker-lxc"
+  },
+  {
+    "name": "Home Assistant Container",
+    "slug": "home-assistant-container",
+    "category": "IoT & Smart Home",
+    "icon": "\ud83c\udfe0",
+    "date": "2024-04-28",
+    "views": 5770,
+    "description": "Container-based installation of Home Assistant Core, suitable for running inside SvNTools LXC.",
+    "script": "#!/bin/bash\n# install Home Assistant Container\nwget https://example.com/home-assistant-container.sh -O ha-container.sh\nbash ha-container.sh",
+    "raw": "https://example.com/home-assistant-container.sh",
+    "github": "https://github.com/example/home-assistant-container"
+  }
+]
