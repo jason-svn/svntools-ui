@@ -14,7 +14,8 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - name: Install
-        run: npm ci
+        # Use legacy-peer-deps to avoid ERESOLVE conflicts in CI
+        run: npm ci --legacy-peer-deps
       - name: Build and export
         run: npm run export
       - name: Upload artifact
